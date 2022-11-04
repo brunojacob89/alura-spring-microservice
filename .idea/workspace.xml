@@ -5,16 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d01e50cb-3fea-423f-ab7f-9c9ced698696" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fornecedor/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fornecedor/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/maven_wrapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/repositories_xml.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fornecedor/src/main/java/br/com/alura/microservice/fornecedor/repository/InfoRespository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loja/src/main/java/br/com/alura/microservice/loja/client/FornecedorClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fornecedor/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/fornecedor/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fornecedor/src/main/java/br/com/alura/microservice/fornecedor/controller/InfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/fornecedor/src/main/java/br/com/alura/microservice/fornecedor/controller/InfoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fornecedor/src/main/java/br/com/alura/microservice/fornecedor/repository/InfoRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fornecedor/src/main/java/br/com/alura/microservice/fornecedor/service/InfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/fornecedor/src/main/java/br/com/alura/microservice/fornecedor/service/InfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fornecedor/src/main/resources/application.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/fornecedor/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/fornecedor/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fornecedor/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/fornecedor/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loja/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/loja/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loja/src/main/java/br/com/alura/microservice/loja/LojaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/loja/src/main/java/br/com/alura/microservice/loja/LojaApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loja/src/main/java/br/com/alura/microservice/loja/controller/service/CompraService.java" beforeDir="false" afterPath="$PROJECT_DIR$/loja/src/main/java/br/com/alura/microservice/loja/controller/service/CompraService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loja/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/loja/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +54,14 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -58,20 +73,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/bruno/Documents/Alura/JAVA/Spring-Framework/alura-microservice/fornecedor/src/main/resources"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/bruno/Documents/Alura/JAVA/Spring-Framework/alura-microservice/fornecedor/src/main/resources&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="br.com.alura.microservice.fornecedor.model" />
+      <recent name="br.com.alura.microservice.fornecedor.repository" />
+      <recent name="br.com.alura.microservice.fornecedor.service" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\bruno\Documents\Alura\JAVA\Spring-Framework\alura-microservice\fornecedor\src\main\resources" />
       <recent name="C:\Users\bruno\Documents\Alura\JAVA\Spring-Framework\alura-microservice\config-server\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ConfigServerApplication">
+  <component name="RunManager" selected="Application.FornecedorApplication">
     <configuration name="ConfigServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.alura.microservice.config.ConfigServerApplication" />
       <module name="config-server.main" />
@@ -98,9 +122,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FornecedorApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="FornecedorApplication" type="Application" factoryName="Application" temporary="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="azul-17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="br.com.alura.microservice.fornecedor.FornecedorApplication" />
-      <module name="fornecedor.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="br.com.alura.microservice.fornecedor.*" />
@@ -147,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LojaApplication" />
-        <item itemvalue="Gradle.fornecedor [dependencies]" />
         <item itemvalue="Application.FornecedorApplication" />
-        <item itemvalue="Application.ConfigServerApplication" />
+        <item itemvalue="Application.LojaApplication" />
         <item itemvalue="Application.EurekaApplication" />
+        <item itemvalue="Application.ConfigServerApplication" />
+        <item itemvalue="Gradle.fornecedor [dependencies]" />
       </list>
     </recent_temporary>
   </component>
@@ -176,5 +201,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/alura_microservice$LojaApplication.ic" NAME="LojaApplication Coverage Results" MODIFIED="1667541507851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>br.com.alura.microservice.loja.*</FILTER>
+    </SUITE>
   </component>
 </project>

@@ -2,8 +2,6 @@ server:
   port: 8888
 
 spring:
-  application:
-    name: 'fornecedor'
   cloud:
     config:
       server:
